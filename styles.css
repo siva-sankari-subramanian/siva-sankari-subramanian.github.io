@@ -1,0 +1,124 @@
+/* Professional Dark Theme CSS */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: #1e1e1e;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+}
+
+.about h2 {
+    font-size: 2.5em;
+}
+
+/* Skills Section */
+.skills {
+    background: #1e1e1e;
+    padding: 50px 20px;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+}
+
+.skill-item {
+    margin: 10px 0;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+/* Experience Section */
+.experience {
+    background: #1e1e1e;
+    padding: 50px 20px;
+}
+
+.experience h2 {
+    font-size: 2.5em;
+}
+
+.experience-item {
+    margin: 10px 0;
+}
+
+/* Education Section */
+.education {
+    padding: 50px 20px;
+}
+
+.education h2 {
+    font-size: 2.5em;
+}
+
+.education-item {
+    margin: 10px 0;
+}
+
+/* Certifications Section */
+.certifications {
+    background: #1e1e1e;
+    padding: 50px 20px;
+}
+
+.certifications h2 {
+    font-size: 2.5em;
+}
+
+.certification-item {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+    .about h2,
+    .skills h2,
+    .projects h2,
+    .experience h2,
+    .education h2,
+    .certifications h2,
+    .contact h2 {
+        font-size: 2em;
+    }
+}
